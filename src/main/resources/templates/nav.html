@@ -1,0 +1,15 @@
+<nav>
+    <ul class="navbar">
+        <li>
+            <a href="/" th:classappend="${page} == 'home' ? 'active' : ''">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="/about" th:classappend="${page} == 'about' ? 'active' : ''">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="/product" th:classappend="${page} == 'product' ? 'active' : ''">Ürünler</a>
+        </li>
+        <li><a href="/contact" th:classappend="${page} == 'contact' ? 'active' : ''">İletişim</a></li>
+    </ul>
+
+</nav>
